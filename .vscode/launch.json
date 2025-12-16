@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Open Site (file)",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "file://${workspaceFolder}/index.html",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Open Site (localhost:8000)",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "http://localhost:8000/",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
+
